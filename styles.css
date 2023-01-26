@@ -1,0 +1,38 @@
+body{
+    
+    font-family: Verdana, Geneva, Tahoma,sans-serif;
+    /* background-color:BlueViolet;
+    background-color: #8A2BE2; */
+    /* background-color:rgb(138, 43, 226); */ 
+    background-color:rgb(65, 15, 214);
+  /*  background-color: hsl(271, 76, 53);*/
+}
+
+article,
+footer {
+     background-color: antiquewhite;
+ }
+
+article {
+  padding: 0 10px;
+
+}
+
+ main {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 8px ;
+
+   /* display: flex;
+   gap: 8px; */
+}
+
+a {
+text-decoration:none;
+color: brown;
+
+}
+
+a:hover {
+  text-decoration: underline ;
+}
